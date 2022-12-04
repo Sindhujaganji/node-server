@@ -1,6 +1,7 @@
 {"wonders": [
   {
     "id":1,
+    "image":"wall.jpg",
     "title": "The Great Wall of China",
     "constructionDate": "7th Century BC",
     "country": "China",
@@ -9,6 +10,7 @@
   },
   {
     "id":2,
+    "image":"colos.jpg",
     "title": "The Colosseum",
     "constructionDate": "AD 80",
     "country": "Italy",
@@ -17,6 +19,7 @@
   },
   {
     "id":3,
+    "image":"taj.jpg",
     "title": "The Taj Mahal",
     "constructionDate": " AD 1648",
     "country": "India",
@@ -25,6 +28,7 @@
   },
   {
     "id":4,
+    "image":"christ.jpg",
     "title": "Christ the Redeemer",
     "constructionDate": "October 12, 1931",
     "country": "Brazil",
@@ -33,6 +37,7 @@
   },
   {
     "id":5,
+    "image":"machu.jpg",
     "title": "Machu Picchu",
     "constructionDate": "AD 1450",
     "country": "Peru",
@@ -41,6 +46,7 @@
   },
   {
     "id":6,
+    "image":"chichen.jpg",
     "title": "Chichén Itzá",
     "constructionDate": "AD 600",
     "country": "Mexico",
@@ -49,6 +55,7 @@
   },
   {
     "id":7,
+    "image":"petra.jpg",
     "title": "Petra",
     "constructionDate": "312 BC",
     "country": "Jordan",
@@ -57,7 +64,8 @@
   },
   {
     "id":8,
-    "title": "Giza Pyramids",
+    "image":"wall.jpg",
+    "title": "giza Pyramids",
     "constructionDate": "2560 BC",
     "country": "Egypt",
     "createdBy": "Khufu, The Cheops",
