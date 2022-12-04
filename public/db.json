@@ -1,7 +1,7 @@
 {"wonders": [
   {
     "id":1,
-    "image":"wall.jpg",
+    "image":"https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2311924/settings_images/8yhgQlGcTA20qqrj7X78_pasted_image_0_6.png",
     "title": "The Great Wall of China",
     "constructionDate": "7th Century BC",
     "country": "China",
@@ -10,7 +10,7 @@
   },
   {
     "id":2,
-    "image":"colos.jpg",
+    "image":"https://cdn.britannica.com/36/162636-050-932C5D49/Colosseum-Rome-Italy.jpg",
     "title": "The Colosseum",
     "constructionDate": "AD 80",
     "country": "Italy",
@@ -19,7 +19,7 @@
   },
   {
     "id":3,
-    "image":"taj.jpg",
+    "image":"https://cdn.kastatic.org/ka-perseus-images/a79b0ada35d989ee1937f865c2216ce50a1b1b33.jpg",
     "title": "The Taj Mahal",
     "constructionDate": " AD 1648",
     "country": "India",
@@ -28,7 +28,7 @@
   },
   {
     "id":4,
-    "image":"christ.jpg",
+    "image":"https://www.trips-southamerica.com/wp-content/uploads/Dise%C3%B1o-sin-t%C3%ADtulo.jpg",
     "title": "Christ the Redeemer",
     "constructionDate": "October 12, 1931",
     "country": "Brazil",
@@ -37,7 +37,7 @@
   },
   {
     "id":5,
-    "image":"machu.jpg",
+    "image":"https://www.peruforless.com/blog/wp-content/uploads/2020/05/machu-picchu-ruins.jpg",
     "title": "Machu Picchu",
     "constructionDate": "AD 1450",
     "country": "Peru",
@@ -46,7 +46,7 @@
   },
   {
     "id":6,
-    "image":"chichen.jpg",
+    "image":"https://whc.unesco.org/uploads/thumbs/site_0483_0001-1200-630-20080528123637.jpg",
     "title": "Chichén Itzá",
     "constructionDate": "AD 600",
     "country": "Mexico",
@@ -55,7 +55,7 @@
   },
   {
     "id":7,
-    "image":"petra.jpg",
+    "image":"https://cdn.britannica.com/88/189788-050-9B5DB3A4/Al-Dayr-Petra-Jordan.jpg",
     "title": "Petra",
     "constructionDate": "312 BC",
     "country": "Jordan",
@@ -64,7 +64,7 @@
   },
   {
     "id":8,
-    "image":"wall.jpg",
+    "image":"https://cdn.mos.cms.futurecdn.net/YMa7Wx2FyjQFUjEeqa72Rm.jpg",
     "title": "giza Pyramids",
     "constructionDate": "2560 BC",
     "country": "Egypt",
