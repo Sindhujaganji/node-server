@@ -2,9 +2,7 @@ const http = require("http");
 const path = require("path");
 const fs = require("fs");
 
-
-const server = http.createServer(async (req, res) => {
-    console.log('req',req.method);
+const server = http.createServer((req, res) => {
     if (req.url === '/') {
         // read public.html file from public folder
         fs.readFile(path.join(__dirname, 'public', 'index.html'),
@@ -12,11 +10,30 @@ const server = http.createServer(async (req, res) => {
 
                 if (err) throw err;
                 res.setHeader("Access-Control-Allow-Origin", "*")
-                res.writeHead(200, {'Content-Type': 'text/html'});
+                res.writeHead(200, { 'Content-Type': 'text/html' });
                 res.end(content);
             }
         );
-    } else if (req.url === '/about') {
+    }
+    else if (req.url === '/image') {
+
+
+        // read the about.html file public folder
+        fs.readFile(
+            path.join(__dirname, 'public', 'sindhuja.jpeg'),
+            (err, content) => {
+
+                if (err) throw err;
+                res.setHeader("Access-Control-Allow-Origin", "*")
+                res.writeHead(200, { 'Content-Type': 'text/plain' });
+                res.end(content);
+            }
+        );
+    }
+
+    else if (req.url === '/about') {
+
+
         // read the about.html file public folder
         fs.readFile(
             path.join(__dirname, 'public', 'about.html'),
@@ -24,13 +41,11 @@ const server = http.createServer(async (req, res) => {
 
                 if (err) throw err;
                 res.setHeader("Access-Control-Allow-Origin", "*")
-                res.writeHead(200, {'Content-Type': 'text/html'});
+                res.writeHead(200, { 'Content-Type': 'text/html' });
                 res.end(content);
             }
         );
     }
-
-
     else if (req.url==='/api')
     {
         fs.readFile(
@@ -45,10 +60,15 @@ const server = http.createServer(async (req, res) => {
             }
         );
     }
-   
     else{
         res.end("<h1> 404 nothing is here</h1>");
     }
+
+    /*
+
+        But what if we have  1000 pages/urls ? do we need to write 1000 if-else statements?
+
+    /*/
 });
 
 const PORT= process.env.PORT || 5959;
